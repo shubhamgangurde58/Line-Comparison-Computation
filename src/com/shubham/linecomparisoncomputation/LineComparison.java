@@ -29,9 +29,11 @@ public class LineComparison {
 		public void linecheck(LineComparison linecomparison2) {
 			if(this.linecalculate() ==  linecomparison2.linecalculate()) {
 			
-				System.out.println(" Both Lines are same");
+				System.out.println("Both line are  same");
+			}else if(this.linecalculate() >  linecomparison2.linecalculate()) {
+				System.out.println("Line1 is Grater than Line2 ");
 			}else {
-				System.out.println("Both line are not same");
+				System.out.println("Line2 is Grater than line1");
 			}
 		}
 		
